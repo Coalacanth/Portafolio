@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "fb92fc68836c7848",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce06b5e0e4a557fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5d3addbb63afa39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS/1 - Crear VPC y Servidor Web/Documentación.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "40d49b8bf94790f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3eac322cd3867ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d21fbc2d182346b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "69f619e84595f4a3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "682d2477f2b96d9d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "838c322cfa3e775b",
+    "type": "split",
+    "children": [
+      {
+        "id": "57a4707267e35c47",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02fd4b5e2d050b84",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AWS/1 - Crear VPC y Servidor Web/Documentación.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5218b3cace2ae52b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AWS/1 - Crear VPC y Servidor Web/Documentación.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4caa75813ee3576c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6fb47684d7d3c356",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AWS/1 - Crear VPC y Servidor Web/Documentación.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "f5d3addbb63afa39",
+  "lastOpenFiles": [
+    "README.md",
+    "AWS/1 - Crear VPC y Servidor Web/Documentación.md"
+  ]
+}
