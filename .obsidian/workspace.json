@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/1 - Crear VPC y Servidor Web/Documentación.md",
+                "file": "AWS/2 - 3-Tier Web Application/Documentación.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/1 - Crear VPC y Servidor Web/Documentación.md",
+                "file": "AWS/2 - 3-Tier Web Application/Documentación.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/1 - Crear VPC y Servidor Web/Documentación.md",
+                "file": "AWS/2 - 3-Tier Web Application/Documentación.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/1 - Crear VPC y Servidor Web/Documentación.md"
+                "file": "AWS/2 - 3-Tier Web Application/Documentación.md"
               }
             }
           }
@@ -149,9 +149,10 @@
   "active": "f5d3addbb63afa39",
   "lastOpenFiles": [
     "Recursos/1 - Imágenes/00-Diagrama-VPCServidorWeb.png.crdownload",
+    "AWS/1 - Crear VPC y Servidor Web/Documentación.md",
+    "AWS/2 - 3-Tier Web Application/Documentación.md",
     "Recursos/1 - Imágenes/00-Diagrama-VPCServidorWeb.png",
     "Recursos/1 - Imágenes/10.8-DatosUsuario.png",
-    "AWS/1 - Crear VPC y Servidor Web/Documentación.md",
     "Recursos/1 - Imágenes/06-EnrutarIGWyVPC.png",
     "Recursos/1 - Imágenes/11-PaginaWeb.png",
     "Recursos/1 - Imágenes/10.7-Almacenamiento.png",
@@ -163,7 +164,7 @@
     "Recursos/1 - Imágenes/09-ReglasGrupodeSeguridad.png.0.pdnSave",
     "Recursos/1 - Imágenes",
     "AWS/1 - Crear VPC y Servidor Web/Segmentación de red.md",
-    "AWS/2 - algo",
+    "AWS/2 - 3-Tier Web Application",
     "Recursos",
     "README.md",
     "AWS/1 - Crear VPC y Servidor Web",
