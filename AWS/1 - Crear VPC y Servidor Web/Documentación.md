@@ -77,12 +77,15 @@ En los datos de usuario agregaremos un script bash para que configure el servido
 Es importante entender la arquitectura que tiene AWS para poder utilizar otros servicios como:
 - CloudFormation, que requiere de este conocimiento para el lanzamiento de la pila.
 - AWS CLI, otra forma de crear recursos en AWS.
+
 Tambien es notable destacar que con Amazon S3 se puede albergar una página web en un bucket.
+
 Otros servicios que pueden ayudar son:
 - ACL, para mayor control de accesos a la red.
 - Amazon Route 53, que nos permite utilizar un nombre de dominio (DNS) para que los usuarios no tengan que aprenderse la IP del sitio web.
 - Amazon CloudFront, para entregar contenido rápidamente utilizando políticas de entrega de contenido.
 - Elastic Load Balancer y AWS Auto scaling, útiles para crear alta disponibilidad de aplicaciones web más complejas.
+
 Encuentro que es bueno saber este tipo de cosas que algunos pueden catalogar de básicas u obvias, pero para mi ese pensamiento es algo obtuso por el hecho de que nada es tan simple y siempre es bueno tener un buen fundamento de las bases con las que se trabaja en la nube.
 
 [segmentación de red]: https://github.com/Coalacanth/Portafolio/blob/main/AWS/1%20-%20Crear%20VPC%20y%20Servidor%20Web/Segmentaci%C3%B3n%20de%20red.md
