@@ -7,6 +7,8 @@ En **AWS** es necesaria cierta infraestructura para poder tener una *página web
 5. Grupos de Seguridad: Firewall que protege a las instancias.
 6. Instancia Elastic Compute Cloud (EC2): En donde se alojara el servidor web.
 
+![00EsquemaVPCServidorWeb]()
+
 # Crear una VPC
 La creación de VPC requiere de comprender como se realiza la [segmentación de red], que puede ser un tanto complejo de entender.
 En este caso se utilizara la `IP 10.0.0.0` y el bloque `CIDR /16`.
