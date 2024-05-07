@@ -9,7 +9,8 @@ En **AWS** es necesaria cierta infraestructura para poder tener una *página web
 
 # Crear una VPC
 La creación de VPC requiere de comprender como se realiza la [[Segmentación de red|segmentación de red]]. En este caso se utilizara la `IP 10.0.0.0` y el bloque `CIDR /16`.
-![[01-Creación VPC.png]]
+
+![CrearVPC](https://github.com/Coalacanth/Portafolio/blob/main/Recursos/1%20-%20Im%C3%A1genes/01-Creaci%C3%B3n%20VPC.png)
 
 # Crear Subred
 
