@@ -35,5 +35,6 @@ La creación de VPC requiere de comprender como se realiza la [segmentación de 
 
 # Crear Instancia EC2
 
-
-[segmentación de red] : https://github.com/Coalacanth/Portafolio/blob/main/AWS/1%20-%20Crear%20VPC%20y%20Servidor%20Web/Segmentaci%C3%B3n%20de%20red.md
+---
+### Referencias
+[segmentación de red]: https://github.com/Coalacanth/Portafolio/blob/main/AWS/1%20-%20Crear%20VPC%20y%20Servidor%20Web/Segmentaci%C3%B3n%20de%20red.md
