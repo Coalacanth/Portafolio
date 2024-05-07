@@ -39,21 +39,50 @@ Se requiere de una VPC y es un componente que ayudara administrando el tráfico 
 # Configurar la Tabla de Enrutamiento
 Se procede a asociar la tabla con la VPC.
 
-![06EnrutarIGWVPC]()
+![06EnrutarIGWVPC](https://github.com/Coalacanth/Portafolio/blob/main/Recursos/1%20-%20Im%C3%A1genes/06-EnrutarIGWyVPC.png)
 
 Luego asociar la tabla con la subred.
 
-![07EnrutarTablaSubred]()
-
-Con todo esto, tenemos configurada la red que se utilizara.
+![07EnrutarTablaSubred](https://github.com/Coalacanth/Portafolio/blob/main/Recursos/1%20-%20Im%C3%A1genes/07-AsociarTablaconSubred.png)
 
 # Crear Grupo de Seguridad
 El Grupo de Seguridad es un firewall que protege a las instancias EC2 que estén dentro, permitiendo o denegando el acceso a los puertos. Recordar que deniega todo por defecto.
 
-!
+![08CrearGrupoSeguridad](https://github.com/Coalacanth/Portafolio/blob/main/Recursos/1%20-%20Im%C3%A1genes/08-CrearGrupodeSeguridad.png)
+
+Así mismo, debemos dar acceso a la instancia para que acepte tráfico de los puertos asociados a HTTP(80) y a HTTPS(443). Habilitare el puerto SSH(22) para que solo mi computador se conecte en caso de que sea necesario.
+
+![09ReglasGrupoSeguridad](https://github.com/Coalacanth/Portafolio/blob/main/Recursos/1%20-%20Im%C3%A1genes/09-ReglasGrupodeSeguridad.png)
 
 # Crear Instancia EC2
+Utilizando la consola podemos configurar paso a paso la instancia EC2 a utilizar.
+
+![10.1NombreEC2](https://github.com/Coalacanth/Portafolio/blob/main/Recursos/1%20-%20Im%C3%A1genes/10.1-NombreEC2.png)
+![10.2AMI](https://github.com/Coalacanth/Portafolio/blob/main/Recursos/1%20-%20Im%C3%A1genes/10.2-AMIEC2.png)
+![10.3Tipo](https://github.com/Coalacanth/Portafolio/blob/main/Recursos/1%20-%20Im%C3%A1genes/10.3-TipoEC2.png)
+![10.4Llaves](https://github.com/Coalacanth/Portafolio/blob/main/Recursos/1%20-%20Im%C3%A1genes/10.4-CrearLlaves.png)
+![10.5Llaves](https://github.com/Coalacanth/Portafolio/blob/main/Recursos/1%20-%20Im%C3%A1genes/10.5-AsociarLlaves.png)
+![10.6VPCSubredGrupoSeguridad](https://github.com/Coalacanth/Portafolio/blob/main/Recursos/1%20-%20Im%C3%A1genes/10.6-AsociarVPCSubredGrupoSeguridad.png)
+![10.7Alamcenamiento](https://github.com/Coalacanth/Portafolio/blob/main/Recursos/1%20-%20Im%C3%A1genes/10.7-Almacenamiento.png)
+
+En los datos de usuario agregaremos un script bash para que configure el servidor web de prueba.
+
+![10.8DatosdeUsuario](https://github.com/Coalacanth/Portafolio/blob/main/Recursos/1%20-%20Im%C3%A1genes/10.8-DatosUsuario.png)
+
+# Pagina Web en Instancia EC2
+
+![11Paginaweb](https://github.com/Coalacanth/Portafolio/blob/main/Recursos/1%20-%20Im%C3%A1genes/11-PaginaWeb.png)
 
 # Conclusión
+Es importante entender la arquitectura que tiene AWS para poder utilizar otros servicios como:
+- CloudFormation, que requiere de este conocimiento para el lanzamiento de la pila.
+- AWS CLI, otra forma de crear recursos en AWS.
+Tambien es notable destacar que con Amazon S3 se puede albergar una página web en un bucket.
+Otros servicios que pueden ayudar son:
+- ACL, para mayor control de accesos a la red.
+- Amazon Route 53, que nos permite utilizar un nombre de dominio (DNS) para que los usuarios no tengan que aprenderse la IP del sitio web.
+- Amazon CloudFront, para entregar contenido rápidamente utilizando políticas de entrega de contenido.
+- Elastic Load Balancer y AWS Auto scaling, útiles para crear alta disponibilidad de aplicaciones web más complejas.
+Encuentro que es bueno saber este tipo de cosas que algunos pueden catalogar de básicas u obvias, pero para mi ese pensamiento es algo obtuso por el hecho de que nada es tan simple y siempre es bueno tener un buen fundamento de las bases con las que se trabaja en la nube.
 
 [segmentación de red]: https://github.com/Coalacanth/Portafolio/blob/main/AWS/1%20-%20Crear%20VPC%20y%20Servidor%20Web/Segmentaci%C3%B3n%20de%20red.md

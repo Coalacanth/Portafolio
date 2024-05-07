@@ -18,31 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a41ab0ea3a91edb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/1 - Crear VPC y Servidor Web/Documentación.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d11add051e686658",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Recursos/1 - Imágenes/06-EnrutarIGWyVPC.png"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,12 +146,12 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "a41ab0ea3a91edb3",
+  "active": "f5d3addbb63afa39",
   "lastOpenFiles": [
-    "Recursos/1 - Imágenes/06-EnrutarIGWyVPC.png",
-    "AWS/1 - Crear VPC y Servidor Web/Documentación.md",
-    "Recursos/1 - Imágenes/11-PaginaWeb.png",
     "Recursos/1 - Imágenes/10.8-DatosUsuario.png",
+    "AWS/1 - Crear VPC y Servidor Web/Documentación.md",
+    "Recursos/1 - Imágenes/06-EnrutarIGWyVPC.png",
+    "Recursos/1 - Imágenes/11-PaginaWeb.png",
     "Recursos/1 - Imágenes/10.7-Almacenamiento.png",
     "Recursos/1 - Imágenes/10.6-AsociarVPCSubredGrupoSeguridad.png",
     "Recursos/1 - Imágenes/Captura de pantalla 2024-04-27 163706.png",
@@ -182,7 +159,6 @@
     "Recursos/1 - Imágenes/10.5-AsociarLlaves.png",
     "Recursos/1 - Imágenes/10.3-TipoEC2.png",
     "Recursos/1 - Imágenes/10.2-AMIEC2.png",
-    "Recursos/1 - Imágenes/10.1-NombreEC2.png",
     "Recursos/1 - Imágenes/09-ReglasGrupodeSeguridad.png.0.pdnSave",
     "Recursos/1 - Imágenes",
     "AWS/1 - Crear VPC y Servidor Web/Segmentación de red.md",
